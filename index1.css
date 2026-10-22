@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans',sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: rgba(4, 90, 64, 0.884) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.regis {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+    background-color: rgba(168, 253, 196, 0.7);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+.regis form button {
+    width: 100%;
+    padding: 5px 0;
+    border:none;
+    background-color: rgb(8, 148, 54, 0.7);
+    font-size: 18px;
+    color: #fafafa;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    margin-bottom: 3px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    margin-bottom: 3px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+a{
+    color: rgb(10, 116, 63);
+}
